@@ -1,5 +1,10 @@
+body { 
+	background: rgba(198, 20, 20, 0.5);
+ }
+
 h1 {
 	text-align: center;
-	text-decoration: underline;
+	text-decoration: bold;
+	color: white;
 }
 	
