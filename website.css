@@ -1,16 +1,18 @@
+
 body { 
-	background: rgba(53, 85, 145, 1);
-	opacity: .8;
+	background: url('https://www.st-andrews.ac.uk/philosophy/images/front/web24.jpg');
+	opacity: 1;
+	background-size: cover;
  }
 
-h1 {
-	font-family: 'Paytone One', sans-serif;
+
+h1 { 
+	font-family: 'Acme', sans-serif;
 	text-align: center;
 	text-decoration: bold;
 	font-size: 85px;
 	color: white;
-	margin: 60px 0 0 0;
-
+	margin: 60px 0 0 0; 
 }
 
 
@@ -34,6 +36,7 @@ p {
 =======
 
 #mybutton{
+	align=center; 
 	
 }	
 >>>>>>> origin/master
