@@ -1,18 +1,21 @@
 
+
 body { 
-	background: url('https://www.st-andrews.ac.uk/philosophy/images/front/web24.jpg');
+	background-image: url('https://c1.staticflickr.com/9/8826/17187449677_eff3e63c2c_b.jpg');
+	background-size: cover; 
 	opacity: 1;
-	background-size: cover;
- }
+	}
 
 
 h1 { 
+	opacity: 1;
+	background-size: cover;
 	font-family: 'Acme', sans-serif;
 	text-align: center;
 	text-decoration: bold;
-	font-size: 85px;
+	font-size: 100px;
 	color: white;
-	margin: 60px 0 0 0; 
+	margin: 0 0 0 0; 
 }
 
 
@@ -21,7 +24,8 @@ h2 {
 	font-size: 40px;
 	color: white;
 	text-align: center;
-	margin: 40px 0 0 0;
+	margin: 80px 40px 40px 40px;
+	padding: 20px 40px 40px 20px;
 }
 p {
     font-family: helevetica, sans-serif;
@@ -30,13 +34,12 @@ p {
 	text-align: center;
 	text-decoration: italic;
 	text-decoration: bold;
-	margin: 60px 0 0 0;
+	margin: 40px 0 0 0;
 }
 
 =======
 
-#mybutton{
-	align=center; 
+#mybutton {
 	
-}	
+	}	
 >>>>>>> origin/master
