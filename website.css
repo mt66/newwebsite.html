@@ -38,8 +38,9 @@ p {
 }
 
 
+li {
 	font-family: helevetica, sans-serif;
-	font-size: 40px;
+	font-size: 30px;
 	color: white;
 	text-align: center;
 	text-decoration: italic;
