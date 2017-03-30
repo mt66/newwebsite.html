@@ -4,3 +4,6 @@ function myFunction() {
 function myFunction() {
     window.location = "casualdining.html";
 }
+function myFunction() {
+    window.location = "cheapandcheerful.html";
+}
