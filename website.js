@@ -1,3 +1,3 @@
 function myFunction() {
-    window.location = "secondpage.html";
+    window.location = "datenight.html";
 }
