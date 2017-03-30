@@ -7,3 +7,9 @@ function myFunction() {
 function myFunction() {
     window.location = "cheapandcheerful.html";
 }
+function myFunction() {
+    window.location = "coffeeandcram.html";
+}
+function myFunction() {
+    window.location = "hangoverremedy.html";
+}
