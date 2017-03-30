@@ -1,3 +1,3 @@
 function myFunction() {
-    window.location = "http://www.google.com/";
+    window.location = "secondpage.html";
 }
