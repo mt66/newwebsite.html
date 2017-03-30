@@ -40,13 +40,17 @@ p {
 
 li {
 	font-family: helevetica, sans-serif;
-	font-size: 30px;
+	font-size: 25px;
 	color: white;
 	text-align: center;
 	text-decoration: italic;
 	text-decoration: bold;
 	margin: 60px 0 0 0;
-	padding: 40px 0 0 0;
+	padding: 20px 0 0 0;
+}
+
+a:hover {
+	color: white;
 }
 
 =======
