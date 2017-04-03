@@ -143,7 +143,7 @@ li {
 }
 
 .team-member h4 {
-  margin-top: 25px;
+  margin-top: 10px;
   margin-bottom: 0;
   text-transform: none;
 }
@@ -152,10 +152,10 @@ li {
 }
 .team-member img {
     border: 20px solid white;
-    position: absolute;
-    right: 150px;
+    position: relative;
+    right: 0px;
     border-radius: 4px;
-    padding: 10px;
+    padding: 20px;
     width: 150px;
   margin: auto;
 
