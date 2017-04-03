@@ -76,7 +76,12 @@ a:hover {
 	color: white;
 }
 
-
+li {
+  display: inline;
+  padding: 70px;
+  text-align: center;
+  float: center;
+}
 .navbar-custom {
   border-color: transparent;
 }
@@ -134,13 +139,16 @@ a:hover {
   margin-bottom: 50px;
 }
 .team-member img {
-    border: 1px solid white;
+    border: 20px solid white;
+    position: absolute;
+    right: 150px;
     border-radius: 4px;
-    padding: 5px;
+    padding: 10px;
     width: 150px;
-  margin: 0 auto;
+  margin: auto;
 
 }
+
 .team-member h4 {
   margin-top: 25px;
   margin-bottom: 0;
@@ -149,7 +157,14 @@ a:hover {
 .team-member p {
   margin-top: 0;
 }
-
+.team-member img {
+    border: 20px solid white;
+    position: absolute;
+    right: 150px;
+    border-radius: 4px;
+    padding: 10px;
+    width: 150px;
+  margin: auto;
 
 section#contact .section-heading {
   color: white;
