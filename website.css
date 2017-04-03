@@ -1,4 +1,3 @@
-
 html { 
   background: url('https://c1.staticflickr.com/9/8826/17187449677_eff3e63c2c_b.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -6,67 +5,60 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-	}
-
-	background-repeat: no-repeat; 
-	opacity: 1;
-
-	
-}
 
 div { 
-	
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+  
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
  }
 
 
 
 h1 { 
-	opacity: 1;
-	background-size: cover;
-	font-family: 'Acme', sans-serif;
-	text-align: center;
-	text-decoration: bold;
-	font-size: 200px;
-	color: white;
-	margin: 0 0 0 0; 
+  opacity: 1;
+  background-size: cover;
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  text-decoration: bold;
+  font-size: 200px;
+  color: white;
+  margin: 0 0 0 0; 
 }
 
 
 h2 {
-	font-family: 'Acme', sans-serif;
-	font-size: 60px;
-	color: white;
-	text-align: center;
-	margin: 80px 40px 40px 40px;
-	padding: 20px 40px 40px 20px;
+  font-family: 'Acme', sans-serif;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin: 80px 40px 40px 40px;
+  padding: 20px 40px 40px 20px;
 }
 p {
     font-family: helevetica, sans-serif;
-	font-size: 35px;
-	color: white;
-	text-align: center;
-	text-decoration: italic;
-	text-decoration: bold;
-	margin: 40px 40px 40px 40px;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  text-decoration: italic;
+  text-decoration: bold;
+  margin: 40px 40px 40px 40px;
 }
 
 
 li {
-	list-style-type: none;
-	font-family: 'Acme', sans-serif;
-	font-size: 40px;
-	color: white;
-	text-align: center;
-	text-decoration: italic;
-	text-decoration: bold;
-	margin: 60px 0 0 0;
-	padding: 20px 0 0 0;
+  list-style-type: none;
+  font-family: 'Acme', sans-serif;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  text-decoration: italic;
+  text-decoration: bold;
+  margin: 60px 0 0 0;
+  padding: 20px 0 0 0;
 }
 
 a:hover {
-	color: white;
+  color: white;
 }
 
 li {
@@ -118,9 +110,6 @@ li {
   color: white;
 }
 
-
-
-
 .team-member {
   text-align: center;
   margin-bottom: 50px;
@@ -152,6 +141,7 @@ li {
     padding: 20px;
     width: 150px;
   margin: auto;
+}
 
 section#contact .section-heading {
   color: white;
@@ -242,9 +232,10 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
   background-color: #fed136;
 }
+
 .btn-xl {
   color: white;
-  background-color:#003366 ;
+  background-color:#003366;
   border-color: #003366;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -273,9 +264,3 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
 }
-
-
-#mybutton {
-
-}
-
