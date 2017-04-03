@@ -76,6 +76,7 @@ a:hover {
 	color: white;
 }
 
+
 .navbar-custom {
   border-color: transparent;
 }
@@ -124,14 +125,21 @@ a:hover {
   color: white;
 }
 
+
+
 <<<<<<< HEAD
+
 .team-member {
   text-align: center;
   margin-bottom: 50px;
 }
 .team-member img {
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
   margin: 0 auto;
-  border: 7px solid white;
+
 }
 .team-member h4 {
   margin-top: 25px;
@@ -267,6 +275,8 @@ ul.social-buttons li a:active {
 
 >>>>>>> origin/master
 }
+
+
 =======
 
 #mybutton {
