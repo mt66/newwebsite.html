@@ -62,7 +62,7 @@ p {
 
 li {
 	list-style-type: none;
-	font-family: helevetica, sans-serif;
+	font-family: 'Acme', sans-serif;
 	font-size: 40px;
 	color: white;
 	text-align: center;
@@ -77,10 +77,12 @@ a:hover {
 }
 
 li {
+  font-family: 'Acme', sans-serif;
   display: inline;
   padding: 70px 20px 40px 70px;
   text-align: center;
   float: center;
+
 
 }
 .navbar-custom {
@@ -98,17 +100,7 @@ li {
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
-.navbar-custom .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  color: white;
-  font-size: 12px;
-}
-.navbar-custom .navbar-toggle:hover,
-.navbar-custom .navbar-toggle:focus {
-}
+
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -266,7 +258,7 @@ ul.social-buttons li a:active {
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 20px;
-
+}
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -280,6 +272,7 @@ ul.social-buttons li a:active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   background-image: none;
+}
 .btn:focus,
 .btn:active,
 .btn.active,
