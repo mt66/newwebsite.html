@@ -35,15 +35,15 @@ h1 {
 	font-family: 'Acme', sans-serif;
 	text-align: center;
 	text-decoration: bold;
-	font-size: 100px;
+	font-size: 200px;
 	color: white;
 	margin: 0 0 0 0; 
 }
 
 
 h2 {
-	font-family: helevetica, sans-serif;
-	font-size: 40px;
+	font-family: 'Acme', sans-serif;
+	font-size: 60px;
 	color: white;
 	text-align: center;
 	margin: 80px 40px 40px 40px;
@@ -51,12 +51,12 @@ h2 {
 }
 p {
     font-family: helevetica, sans-serif;
-	font-size: 25px;
+	font-size: 35px;
 	color: white;
 	text-align: center;
 	text-decoration: italic;
 	text-decoration: bold;
-	margin: 40px 0 0 0;
+	margin: 40px 40px 40px 40px;
 }
 
 
@@ -184,12 +184,6 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
   background-color: #fed136;
 }
-.btn:focus,
-.btn:active,
-.btn.active,
-.btn:active:focus {
-  outline: none;
-=======
 .btn-xl {
   color: white;
   background-color:#003366 ;
@@ -214,6 +208,14 @@ ul.social-buttons li a:active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   background-image: none;
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
+}
+=======
+
 
 >>>>>>> origin/master
 }
