@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 html { 
   background: url('https://c1.staticflickr.com/9/8826/17187449677_eff3e63c2c_b.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
-=======
+
 header {
   opacity: 1;
   background-size: cover;
@@ -24,7 +24,7 @@ body {
 	background-attachment: scroll;
   background-position: center center;
    -webkit-background-size: cover;
->>>>>>> origin/master
+
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -39,7 +39,7 @@ div {
 
 
 h1 { 
-<<<<<<< HEAD
+
   opacity: 1;
   background-size: cover;
   font-family: 'Acme', sans-serif;
@@ -48,7 +48,7 @@ h1 {
   font-size: 200px;
   color: white;
   margin: 0 0 0 0; 
-=======
+
 	opacity: 1;
 	background-size: cover;
 	font-family: 'Acme', sans-serif;
@@ -58,7 +58,7 @@ h1 {
 	font-size: 60px;
 	color: white;
 	margin: 0 0 0 0; 
->>>>>>> origin/master
+
 }
 
 
