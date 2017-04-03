@@ -1,20 +1,13 @@
 
-body {
-	background-image: url('https://c1.staticflickr.com/9/8826/17187449677_eff3e63c2c_b.jpg');
-<<<<<<< HEAD
-	background-size: 50% 50%;
-	opacity: 1;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-  background-position: center center;
-   -webkit-background-size: cover;
+html { 
+  background: url('https://c1.staticflickr.com/9/8826/17187449677_eff3e63c2c_b.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
-  text-align: center;
-  color: white;
+  background-size: cover;
+}
 	}
-=======
+
 	background-repeat: no-repeat; 
 	opacity: 1;
 
@@ -26,7 +19,7 @@ div {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
  }
->>>>>>> origin/master
+
 
 
 h1 { 
@@ -86,16 +79,6 @@ li {
 
 }
 
-.datenight{
-  background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
 
 .navbar-custom {
   border-color: transparent;
@@ -137,7 +120,6 @@ li {
 
 
 
-<<<<<<< HEAD
 
 .team-member {
   text-align: center;
@@ -198,14 +180,14 @@ section#contact ::-webkit-input-placeholder {
   color: #eeeeee;
 }
 section#contact :-moz-placeholder {
-  /* Firefox 18- */
+
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact ::-moz-placeholder {
-  /* Firefox 19+ */
+  
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -291,16 +273,9 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
 }
-=======
 
-
->>>>>>> origin/master
-}
-
-
-=======
 
 #mybutton {
 
 }
->>>>>>> origin/master
+
