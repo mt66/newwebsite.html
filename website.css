@@ -1,10 +1,17 @@
 
-
-body { 
+body {
 	background-image: url('https://c1.staticflickr.com/9/8826/17187449677_eff3e63c2c_b.jpg');
-	background-size: cover; 
+	background-repeat: no-repeat; 
 	opacity: 1;
-	}
+
+	
+}
+
+div { 
+	
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+ }
 
 
 h1 { 
@@ -54,16 +61,35 @@ a:hover {
 	color: white;
 }
 
+.btn-xl {
+  color: white;
+  background-color:#003366 ;
+  border-color: #003366;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 20px;
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  color: white;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  background-image: none;
+
+}
 =======
 
-.mybutton {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+#mybutton {
+
 }
 >>>>>>> origin/master

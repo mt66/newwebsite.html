@@ -4,6 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
+  background-image: url('https://c1.staticflickr.com/9/8826/17187449677_eff3e63c2c_b.jpg');
+  background-size: cover; 
+  opacity: 1;
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -14,11 +17,11 @@ body {
   color: #fed136;
 }
 p {
-  font-size: 14px;
-  line-height: 1.75;
+  font-size: 20px;
+  line-height: 2;
 }
 p.large {
-  font-size: 16px;
+  font-size: 100px;
 }
 a,
 a:hover,
@@ -34,7 +37,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #000066;
 }
 h1,
 h2,
@@ -45,6 +48,7 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 500px;
 }
 .img-centered {
   margin: 0 auto;
@@ -56,7 +60,7 @@ h6 {
   background-color: #222222;
 }
 .btn-primary {
-  color: white;
+  color: black;
   background-color: #fed136;
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -225,17 +229,7 @@ fieldset[disabled] .btn-xl.active {
     font-size: 1.5em;
   }
 }
-header {
-  background-image: url('../img/header-bg.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: white;
+
 }
 header .intro-text {
   padding-top: 100px;
