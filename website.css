@@ -1,3 +1,14 @@
+header { 
+  opacity: 1;
+  background-size: cover;
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  text-decoration: bold;
+  text-decoration: italic;
+  font-size: 100px;
+  color: white;
+  margin: 0 0 0 0; 
+ }
 
 html { 
   background: url('https://c1.staticflickr.com/9/8826/17187449677_eff3e63c2c_b.jpg') no-repeat center center fixed; 
@@ -46,7 +57,7 @@ h1 {
 
 h2 {
   font-family: 'Acme', sans-serif;
-  font-size: 60px;
+  font-size: 30px;
   color: white;
   text-align: center;
   margin: 80px 40px 40px 40px;
@@ -60,6 +71,11 @@ p {
   text-decoration: italic;
   text-decoration: bold;
   margin: 40px 40px 40px 40px;
+}
+
+.Price {
+  font-family: helevetica, sans-serif;
+   color: yellow;
 }
 
 
@@ -123,6 +139,10 @@ li {
   color: white;
   
 }
+.navbar-custom ul {
+    display: inline-block;
+    list-style-type: none;
+}
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
@@ -165,11 +185,19 @@ section#contact .section-heading {
   color: white;
 }
 section#contact .form-group {
-  margin-bottom: 25px;
+  margin-bottom: auto;
+  
 }
 section#contact .form-group input,
 section#contact .form-group textarea {
   padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  position:relative;
+}
+
+div {
+  text-align: center;
 }
 section#contact .form-group input.form-control {
   height: auto;
@@ -220,6 +248,7 @@ footer span.copyright {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+  color: white;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
@@ -228,32 +257,33 @@ footer ul.quicklinks {
   text-transform: uppercase;
   text-transform: none;
 }
-ul.social-buttons {
-  margin-bottom: 0;
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
-ul.social-buttons li a {
-  display: block;
-  background-color: #7FDBFF;
-  height: 40px;
-  width: 40px;
-  border-radius: 100%;
-  font-size: 20px;
-  line-height: 40px;
-  color: white;
-  outline: none;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+.fa:hover {
+    opacity: 0.7;
 }
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-  background-color: #fed136;
+.fa-facebook {
+    background: #3B5998;
+    color: white;
 }
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+    background: #0077B5;
+    color: white;
+}
+
 
 .btn-xl {
   color: white;
-  background-color:#003366;
+  background-color:#FF69B4;
   border-color: #003366;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
